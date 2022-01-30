@@ -204,5 +204,3 @@ volatiliy = []
 for i in range(len(low_prices)):
     volatiliy.append(high_prices[i] - low_prices[i])
 print(volatiliy)
-
-# 180~200 해야 됨
