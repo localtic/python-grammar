@@ -131,9 +131,9 @@ print(분기[:7])
 print(분기.split("(")[0])
 # 원본을 사용하려면 재할당
 
-# str.strip : 좌우에 입력한 문자를 없앤다.
-# str.rstrip : 우측에 입력한 문자를 없앤다.
-# str.lstrip : 좌측에 입력한 문자를 없앤다.
+# str.strip([chars]): 좌우에 입력한 문자를 없앤다.
+# str.rstrip(): 우측에 입력한 문자를 없앤다.
+# str.lstrip(): 좌측에 입력한 문자를 없앤다.
 # 입력값이 없으면 공백을 없앤다.
 print("\n40")
 data = "   삼성전자    "
