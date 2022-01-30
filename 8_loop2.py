@@ -1,6 +1,3 @@
-from re import L
-
-
 print("\n151")
 list1 = [3, -20, -3, 44]
 for i in list1:
