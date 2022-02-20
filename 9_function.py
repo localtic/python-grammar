@@ -210,9 +210,35 @@ def print_5xn2(string):
 print_5xn("아이엠어보이유알어걸")
 print_5xn2("아이엠어보이유알어걸아이엠어보이유알어걸아이엠어보이유")
 
+print("\n227")
 def print_mxn(string, num):
     i = 0
     while i < len(string):
         print(string[i:i+num])
         i += num
 print_mxn("아이엠어보이유알어걸", 3)
+
+
+print("\n228")
+def calc_monthly_salary(annual_salary):
+    return int(annual_salary / 12)
+print(calc_monthly_salary(12000000))
+
+
+print("\n229")
+def my_print (a, b) :
+    print("왼쪽:", a)
+    print("오른쪽:", b)
+
+my_print(a=100, b=200)
+# 왼쪽: 100, 오른쪽: 200
+# return값은 None
+
+
+print("\n230")
+def my_print (a, b) :
+    print("왼쪽:", a)
+    print("오른쪽:", b)
+
+my_print(b=100, a=200)
+# 왼쪽: 200, 오른쪽: 100
